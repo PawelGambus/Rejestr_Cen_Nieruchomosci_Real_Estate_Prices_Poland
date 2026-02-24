@@ -1,6 +1,6 @@
 # RCN Wrocław: Property Transaction Data
 
-A minimal Python script for querying the Polish **Rejestr Cen Nieruchomości** (RCN), the national land registry of property prices, and extracting residential unit transactions for Wrocław into a pandas DataFrame.
+A minimal Python script for querying the Polish **Rejestr Cen Nieruchomości** (RCN), the national land registry of property prices, and extracting residential unit transactions into a pandas DataFrame.
 
 ## Background
 
@@ -44,7 +44,7 @@ To change the number of results or the area of interest, edit the constants at t
 # Adjust how many records to fetch
 df = fetch_transactions(count=100)
 
-# Adjust the bounding box (EPSG:2180) for a different city
+# Adjust the bounding box (EPSG:2180) for a different city. Disclaimer: this is still under development and targetting Real estates in Wroclaw might not work as expected
 WROCLAW_BBOX = "333000,514000,340000,521000,urn:ogc:def:crs:EPSG::2180"
 ```
 
