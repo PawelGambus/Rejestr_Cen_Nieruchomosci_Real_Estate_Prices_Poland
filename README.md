@@ -1,4 +1,4 @@
-# RCN Wrocław — Property Transaction Data
+# RCN Wrocław: Property Transaction Data
 
 A minimal Python script for querying the Polish **Rejestr Cen Nieruchomości** (RCN), the national land registry of property prices, and extracting residential unit transactions for Wrocław into a pandas DataFrame.
 
